@@ -1,3 +1,4 @@
 C:/Code/App/KZ/build/CMakeFiles/kz.dir
 C:/Code/App/KZ/build/CMakeFiles/ALL_BUILD.dir
 C:/Code/App/KZ/build/CMakeFiles/ZERO_CHECK.dir
+C:/Code/App/KZ/build/src/lexer/CMakeFiles/lexer_lib.dir
