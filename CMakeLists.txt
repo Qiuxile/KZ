@@ -10,13 +10,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # 不要使用编译器扩展，保证跨平台行为一致
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-# 4. 开启编译警告（相当于 g++ 的 -Wall -Wextra -Wpedantic）
-if(MSVC)
-    add_compile_options(/W4)          # MSVC 高警告级别
-else()
-    add_compile_options(-Wall -Wextra -Wpedantic)
-endif()
-
 # 5. 设置可执行文件的输出目录（可选，让 build 目录更整洁）
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
